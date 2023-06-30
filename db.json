@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "nombre": "Miguel",
+      "empresa": "Empresa",
+      "email": "miguel@juan.com",
+      "telefono": "319381983",
+      "notas": "notas",
+      "id": 4
+    },
+    {
+      "nombre": "Pedro",
+      "empresa": "Empresa",
+      "email": "pedro@juan.com",
+      "telefono": "1398198938",
+      "notas": "Notas dos",
+      "id": 5
+    },
+    {
+      "nombre": "Jose",
+      "empresa": "Empresa",
+      "email": "correo@correo.com",
+      "telefono": "4455252",
+      "notas": "Tiene mucho texto",
+      "id": 6
+    }
+  ]
+}
