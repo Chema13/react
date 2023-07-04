@@ -1,6 +1,6 @@
 const AnimeEmision = () => {
     return (
-        <ul className="pl-4 py-3 bg-white w-[90%]">
+        <ul className="pl-4 py-3 bg-white min-w-full">
             <li>
                 <a className="w-full text-[14px] flex items-center gap-10 hover:text-[#01bcf3] [&>span#etiquetaAnime]:hover:bg-[#01bcf3]" href="#">
                     <span className="material-symbols-outlined inline-block">play_circle</span>

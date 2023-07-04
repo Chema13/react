@@ -6,10 +6,11 @@ import LandingFooter from "./components/LandingFooter"
 const Anime = () => {
     return (
 
-        <div className="bg-[url('../../../public/FondoMain.webp')] h-screen">
+        <div className="w-screen bg-[url('../../../public/FondoMain.webp')]">
+
             <LandingHeader />
 
-            <main className="container mx-auto px-[190px] md:container md:mx-auto">
+            <main className="container mx-auto">
                 <BarraMain />
                 <HeroSection />
             </main>
@@ -17,6 +18,7 @@ const Anime = () => {
             <footer>
                 <LandingFooter />
             </footer>
+
         </div>
     )
 }

@@ -2,7 +2,7 @@ import { useState } from "react"
 
 const LandingHeader = () => {
 
-    const [isLive, useIsLive] = useState(false)
+    const [isLive, useIsLive] = useState(true)
 
     if (useIsLive) {
         //
@@ -11,9 +11,9 @@ const LandingHeader = () => {
     return (
 
         <>
-            <header className="py-[14px] flex w-full top-0 justify-center z-40 bg-[#2f3439]">
+            <header className="py-[14px] flex top-0 justify-center bg-[#2f3439]">
 
-                <div className="flex w-[60%]">
+                <div className="flex container px-48 justify-between">
                     <nav className="flex flex-grow basis-0 hover:cursor-pointer">
                         <img src="../../../../public/logoAnimeFlv.webp" alt="logo animeflv" />
                     </nav>
