@@ -34,8 +34,6 @@ const NuevoCliente = () => {
   const errores = useActionData()
   const navigate = useNavigate()
 
-  console.log(errores)
-
   return (
     <>
       <h1 className='font-black text-4xl text-green-900'> Nuevo Cliente </h1>

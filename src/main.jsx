@@ -49,11 +49,11 @@ const router = createBrowserRouter([
         path: '/clientes/:clienteId/eliminar',
         action: eliminarClienteAction,
       },
+      {
+        path: '/prueba-tecnica',
+        element: <Prueba />,
+      },
     ],
-  },
-  {
-    path: '/nuevo',
-    element: <Prueba />,
   },
   {
     path: '/tesla',

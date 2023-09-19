@@ -32,12 +32,14 @@ const Layout = () => {
           </Link>
 
           <Link
-            to='/nuevo'
+            to='/prueba-tecnica'
             className={`${
-              location.pathname === '/nuevo' ? 'text-green-300' : 'text-white'
+              location.pathname === '/prueba-tecnica'
+                ? 'text-green-300'
+                : 'text-white'
             } text-2xl block mt-2 hover:text-green-300}`}
           >
-            Nuevo
+            Prueba
           </Link>
           <Link
             to='/tesla'
