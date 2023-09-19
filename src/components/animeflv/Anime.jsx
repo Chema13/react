@@ -1,26 +1,23 @@
-import LandingHeader from "./components/LandingHeader"
-import BarraMain from "./components/BarraMain"
-import HeroSection from "./components/HeroSection"
-import LandingFooter from "./components/LandingFooter"
+import LandingHeader from './components/LandingHeader'
+import BarraMain from './components/BarraMain'
+import HeroSection from './components/HeroSection'
+import LandingFooter from './components/LandingFooter'
 
 const Anime = () => {
-    return (
+  return (
+    <div className="w-screen bg-[url('../../../public/FondoMain.webp')]">
+      <LandingHeader />
 
-        <div className="w-screen bg-[url('../../../public/FondoMain.webp')]">
+      <main className='container mx-auto'>
+        <BarraMain />
+        <HeroSection />
+      </main>
 
-            <LandingHeader />
-
-            <main className="container mx-auto">
-                <BarraMain />
-                <HeroSection />
-            </main>
-
-            <footer>
-                <LandingFooter />
-            </footer>
-
-        </div>
-    )
+      <footer>
+        <LandingFooter />
+      </footer>
+    </div>
+  )
 }
 
 export default Anime
