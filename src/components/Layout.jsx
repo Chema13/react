@@ -48,14 +48,12 @@ const Layout = () => {
             Tesla
           </Link>
           <Link
-            to='/animeflv'
+            to='/anime'
             className={`${
-              location.pathname === '/animeflv'
-                ? 'text-green-300'
-                : 'text-white'
+              location.pathname === '/anime' ? 'text-green-300' : 'text-white'
             } text-2xl block mt-2 hover:text-green-300`}
           >
-            AnimeFlv
+            Anime
           </Link>
         </nav>
       </aside>
