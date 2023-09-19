@@ -17,7 +17,7 @@ import { action as eliminarClienteAction } from './components/Cliente'
 
 import Prueba from './components/pruebaCss/Prueba'
 import Tesla from './components/pruebaCss/Tesla'
-import Anime from './components/animeflv/Anime'
+import Anime from './components/anime/Anime'
 
 const router = createBrowserRouter([
   {
